@@ -1,11 +1,11 @@
 # Blockchain Lab - Solidity Group Project
 
 ## Group Members
-   # Name                          # ID Number
-1. Abenezer Alemayehu            Uger/25470/14
-2. Abrham Demsew                 Ugr/25420/14
-3. Beamlak Tesema                Ugr/25545/14
-4. Elyas Damenu                  Ugr/25386/14
+   # Name------------------- # ID Number
+1. Abenezer Alemayehu-------------           Uger/25470/14
+2. Abrham Demsew------------                 Ugr/25420/14
+3. Beamlak Tesema-------------               Ugr/25545/14
+4. Elyas Damenu------------                  Ugr/25386/14
 
 
 ## Course
