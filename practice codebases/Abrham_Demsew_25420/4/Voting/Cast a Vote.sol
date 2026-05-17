@@ -1,0 +1,31 @@
+pragma solidity ^0.8.20;
+
+contract Voting {
+    struct Proposal {
+        address target;
+        bytes data;
+        uint yesCount;
+        uint noCount;
+    }
+
+    Proposal[] public proposals;
+
+    function newProposal(address target, bytes calldata data) external {
+        Proposal memory proposal = Proposal({
+            target: target,
+            data: data,
+            yesCount: 0,
+            noCount: 0
+        });
+
+        proposals.push(proposal);
+    }
+
+    function castVote(uint proposalId, bool inSupport) external {
+        if (inSupport) {
+            proposals[proposalId].yesCount++;
+        } else {
+            proposals[proposalId].noCount++;
+        }
+    }
+}
